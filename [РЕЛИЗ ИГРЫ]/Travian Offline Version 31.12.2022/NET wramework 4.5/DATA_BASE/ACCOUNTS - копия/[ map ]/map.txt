@@ -1,0 +1,6 @@
+Width = 10
+Height = 10
+Location_X0_Y0.X = 12
+Location_X0_Y0.Y = 10
+Location.X = 5
+Location.Y = 3

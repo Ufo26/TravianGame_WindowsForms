@@ -1,0 +1,9 @@
+[
+  //nation     maximum number of buildings under construction at the same time 
+  //нация      максимальное количество одновременных построек в очереди строительства
+  [ "Romes",   "4" ],
+  [ "Germans", "3" ],
+  [ "Gallus",  "2" ],
+  [ "Natures", "1" ],
+  [ "Natars",  "2" ]
+]

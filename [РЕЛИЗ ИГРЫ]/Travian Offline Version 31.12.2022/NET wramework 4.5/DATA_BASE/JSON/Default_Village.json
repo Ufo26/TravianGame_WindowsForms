@@ -1,0 +1,54 @@
+{
+  "FolderAccount": "",
+  "Type_Village": 0,                                //тип деревни [1] Natars, [0] Other (default)
+  "HourlyProductionResources": { "wood": 48.0, "clay": 48.0, "iron": 48.0, "crop": 54.0, "gold": 5.0 },//текущая выработка в час
+  "HourlyProductionResources_PercentOfIncrease": { "wood": 0.0, "clay": 0.0, "iron": 0.0, "crop": 0.0, "gold": 0.0 },//% бонус к выработке
+  //Warehouse = склад     Barn = амбар    Treasury = казна    Embassy = посольство    Stash = тайник
+  "Capacity": { "Warehouse": 0, "Barn": 0, "Treasury": 0, "Embassy": 0, "Stash": 0 },//вместимость хранилищ + посольство и тайник
+  "Wounded_Units": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],//массив раненых юнитов
+  "Wounded_TreatmentCostMultiplier": 0.0,           //множитель стоимости лечения раненых юнитов
+  "Wounded_DeathOfUnitsPerDay_Percent": 100.0,      //процент смертей в сутки раненых юнитов
+  "BonusOfSpeed_Arena": 0,                          //бонус скорости войск            (Арена)
+  "BonusOfTime_Construction": 100,                  //бонус времени строительства     (Главное здание)
+  "QuantityOfVisibleMovements_CollectionPoint": 0,  //количество видимых передвижений (Пункт сбора)
+  "BonusOfTimeTraining_Barrack": 0,                 //бонус времени обучения войск    (Казарма)
+  "BonusOfTimeTraining_Stable": 0,                  //бонус времени обучения войск    (Конюшня)
+  "BonusOfTime_TrainingInWorkshop": 0,              //бонус времени обучения войск    (Мастерская)
+  "ExpansionSlots_Free": 0,                         //свободных слотов экспансии      (Дворец/Резиденция)
+  "ExpansionSlots_Occupied": 0,                     //занятых слотов экспансии        (Дворец/Резиденция)
+  "BonusOfCapacity_Merchants": 0,                   //бонус вместимости торговцев     (Торговая палата)
+  "BonusOfTimeTraining_BigBarrack": 0,              //бонус времени обучения войск    (Большая казарма)
+  "BonusOfTimeTraining_BigStable": 0,               //бонус времени обучения войск    (Большая конюшня)
+  "BonusOfProtection_Wall": 0,                      //бонус защиты от армий           (Стена)
+  "CompleteDestruction_Wall_CountOfRams": 0,        //количество таранов для полного разрушения стены
+  "BonusOfStability_Buildings": 0,                  //бонус устойчивости зданий       (Дом каменотёса)
+  "OasisSlots_Free": 0,                             //свободных слотов для оазисов    (Таверна)
+  "OasisSlots_Occupied": 0,                         //занятых слотов для оазисов      (Таверна)
+  "BonusOfTimeTraining_WateringHole": 0,            //бонус времени обучения войск    (Водопой)       РИМЛЯНЕ
+  "Bonus_OfCropConsumption_ByMountedScouts_ROMANS": 0,//бонус потребления зерна [конные разведчики]   РИМЛЯНЕ
+  "Bonus_OfCropConsumption_ByEmperorCavalry_ROMANS": 0,//бонус потребления зерна [Конница императора] РИМЛЯНЕ
+  "Bonus_OfCropConsumption_By_CaesarCavalry_ROMANS": 0,//бонус потребления зерна [Конница Цезаря]     РИМЛЯНЕ
+  "DurationOfHoliday_TownHall": 0,                  //продолжительность праздника     (Ратуша)
+  "DurationOfCelebration_TownHall": 0,              //продолжительность торжества     (Ратуша)
+  "Timer_Holiday_TownHalls": 0,                     //таймер праздника                (Ратуша)
+  "Timer_Celebration_TownHalls": 0,                 //таймер торжества                (Ратуша)
+  //Slot - заполняется в других файлах .json
+  "Slot": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+  "Incoming_Reinforcements": [],      //List<> прибывших входящих подкреплений
+  "Outgoing_Reinforcements": [],      //List<> отправленных исходящих подкреплений
+  "Village_Name": "New Village",      //название деревни по умолчанию
+  "Type_Resources": 1,                //тип ресурсных полей по умолчанию, 1 = [4-4-4-6]
+  "Population": 2,                    //текущее население деревни, 2 даёт 1 lvl Главного здания
+  "Approval": 100,                    //текущее одобрение деревни (100%)
+  "add_Approval": 1,                  //прирост одобрения в сутки
+  "Culture_EK": 0,                    //текущее количество накопленной культуры
+  "add_Culture_EK": 2,                //текущий прирост культуры в сутки (вычисляется из уровня Резиденции/Дворца)
+  "Coordinates_World_Travian": "123456789, 123456789",//Коры, координаты деревни в мире Travian с +/- центром (0, 0), координаты в масиве Map.Cell[][] вычисляются по требованию специальными методами конвертации, находящимися в классе TMap
+  "ResourcesInStorages": { "wood": 800.0, "clay": 800.0, "iron": 800.0, "crop": 800.0, "gold": 200.0 },//кол-во ресурсов в хранилищах
+  "Crop_Consumption": 2,              //текущее потребление зерна деревней
+  "QuantityOfTraps_Total": 0,         //общее количество ловушек на текущем уровне     (Капканщик) ГАЛЛЫ
+  "QuantityOfTraps_Available": 0,     //количество свободных ловушек для строительства (Капканщик) ГАЛЛЫ
+  "QuantityOfTraps_Built": 0,         //количество построенных ловушек                 (Капканщик) ГАЛЛЫ
+  "QuantityMerchants_Available": 0,   //количество свободных торговцев                 (Рынок)
+  "QuantityMerchants_Total": 0        //общее количество торговцев                     (Рынок)
+}

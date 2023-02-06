@@ -1,0 +1,136 @@
+{
+//NPC
+  "Information": [
+    {
+      "Name": "Pikeman / Пикейщик",
+      "Attack": 20,
+      "Defense_vs_Infantry": 35,
+      "Defense_vs_Cavalry": 50,
+      "Consumption": 1,
+      "Speed": 6,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 0.0, "clay": 0.0, "iron": 0.0, "crop": 0.0, "gold": 0.0 },
+      "TimeOfResearch": 0,
+      "CostOfTraining": { "wood": 120.0, "clay": 80.0, "iron": 100.0, "crop": 90.0, "gold": 0.0 },
+      "TimeOfTraining": 480
+    },
+    {
+      "Name": "A Warrior with spikes / Воин с шипами",
+      "Attack": 65,
+      "Defense_vs_Infantry": 30,
+      "Defense_vs_Cavalry": 10,
+      "Consumption": 1,
+      "Speed": 7,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 700.0, "clay": 500.0, "iron": 1000.0, "crop": 760.0, "gold": 0.0 },
+      "TimeOfResearch": 3480,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 560
+    },
+    {
+      "Name": "The Guard / Стражник",
+      "Attack": 100,
+      "Defense_vs_Infantry": 90,
+      "Defense_vs_Cavalry": 75,
+      "Consumption": 1,
+      "Speed": 6,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 700.0, "clay": 500.0, "iron": 1000.0, "crop": 760.0, "gold": 0.0 },
+      "TimeOfResearch": 2280,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 160
+    },
+    {
+      "Name": "Raven / Ворон",
+      "Attack": 0,
+      "Defense_vs_Infantry": 10,
+      "Defense_vs_Cavalry": 0,
+      "Consumption": 1,
+      "Speed": 25,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 700.0, "clay": 50.0, "iron": 1000.0, "crop": 760.0, "gold": 0.0 },
+      "TimeOfResearch": 2760,
+      "CostOfTraining": {
+        "wood": 0.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 100.0 },
+      "TimeOfTraining": 320
+    },
+    {
+      "Name": "The Horseman with the axe / Всадник с топором",
+      "Attack": 155,
+      "Defense_vs_Infantry": 80,
+      "Defense_vs_Cavalry": 50,
+      "Consumption": 2,
+      "Speed": 14,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 700.0, "clay": 500.0, "iron": 1000.0, "crop": 760.0, "gold": 0.0 },
+      "TimeOfResearch": 1848,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 100.0 },
+      "TimeOfTraining": 16
+    },
+    {
+      "Name": "Knight of the Natars / Рыцарь Натаров",
+      "Attack": 170,
+      "Defense_vs_Infantry": 140,
+      "Defense_vs_Cavalry": 80,
+      "Consumption": 3,
+      "Speed": 12,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 700.0, "clay": 500.0, "iron": 1000.0, "crop": 760.0, "gold": 0.0 },
+      "TimeOfResearch": 1848,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 16
+    },
+    {
+      "Name": "War Elephant / Боевой слон",
+      "Attack": 250,
+      "Defense_vs_Infantry": 120,
+      "Defense_vs_Cavalry": 150,
+      "Consumption": 6,
+      "Speed": 5,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 700.0, "clay": 500.0, "iron": 1000.0, "crop": 760.0, "gold": 0.0 },
+      "TimeOfResearch": 1860,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 20
+    },
+    {
+      "Name": "Ballista / Баллиста",
+      "Attack": 60,
+      "Defense_vs_Infantry": 45,
+      "Defense_vs_Cavalry": 10,
+      "Consumption": 5,
+      "Speed": 3,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 700.0, "clay": 500.0, "iron": 1000.0, "crop": 760.0, "gold": 0.0 },
+      "TimeOfResearch": 2700,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 300
+    },
+    {
+      "Name": "Emperor Natars / Император Натаров",
+      "Attack": 80,
+      "Defense_vs_Infantry": 50,
+      "Defense_vs_Cavalry": 50,
+      "Consumption": 1,
+      "Speed": 5,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 550.0, "clay": 250.0, "iron": 480.0, "crop": 220.0, "gold": 0.0 },
+      "TimeOfResearch": 1850,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 200
+    },
+    {
+      "Name": "The Settler / Поселенец",
+      "Attack": 30,
+      "Defense_vs_Infantry": 40,
+      "Defense_vs_Cavalry": 40,
+      "Consumption": 1,
+      "Speed": 5,
+      "LoadCapacity": 3000,
+      "CostOfResearch": { "wood": 0.0, "clay": 0.0, "iron": 0.0, "crop": 0.0, "gold": 0.0 },
+      "TimeOfResearch": 0,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 320
+    }
+  ]
+}

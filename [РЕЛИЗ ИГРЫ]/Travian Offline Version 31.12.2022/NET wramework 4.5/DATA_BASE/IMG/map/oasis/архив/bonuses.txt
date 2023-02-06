@@ -1,0 +1,12 @@
+25	0	wood
+50	0	wood
+25	25	wood_crop
+25	0	clay
+50	0	clay
+25	25	clay_crop
+25	0	iron
+50	0	iron
+25	25	iron_crop
+25	0	crop
+50	0	crop
+  +%  В  ЧАС	ТИПЫ ОАЗИСОВ (одна строка на комментарий !!!!!)

@@ -1,0 +1,322 @@
+[
+  {
+    "FolderAccount": "None / Resource fields Slot[ 0 ]", //название папки аккаунта, заполняется в коде автоматом
+    "ID_ProcessOfConstruction": 42, //пусто, номер строящейся постройки
+    "Village_Name": "", //заполняется в коде автоматом, номер деренви
+    "Level": 0, //уровень постройки
+    "ID": 1, //Лесопилка              номер постройки в enum Buildings
+    "ProcessOfConstruction": false //true = слот в процессе строительства, false = в слоте ничего не строится
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 1 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 4, //Ферма
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 2 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 1, //Лесопилка
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 3 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 3, //Железный рудник
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 4 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 2, //Глиняный карьер
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 5 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 2, //Глиняный карьер
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 6 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 4, //Ферма
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 7 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 4, //Ферма
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 8 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 3, //Железный рудник
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 9 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 3, //Железный рудник
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 10 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 3, //Железный рудник
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 11 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 4, //Ферма
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 12 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 4, //Ферма
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 13 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 4, //Ферма
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 14 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 1, //Лесопилка
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 15 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 2, //Глиняный карьер
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 16 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 1, //Лесопилка
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Resource fields Slot[ 17 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 2, //Глиняный карьер
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 18 ]", //название папки аккаунта, заполняется в коде автоматом
+    "ID_ProcessOfConstruction": 42, //пусто, номер строящейся постройки
+    "Village_Name": "", //заполняется в коде автоматом, номер деренви
+    "Level": 0, //уровень постройки
+    "ID": 31, //Стена, номер постройки в enum Buildings (31, 32, 33)
+    "ProcessOfConstruction": false //true = слот в процессе строительства, false = в слоте ничего не строится
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 19 ]",
+    "ID_ProcessOfConstruction": 42, //пусто
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 16, //Пункт сбора
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 20 ]",
+    "ID_ProcessOfConstruction": 42, //пусто
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42, //пусто
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 21 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 22 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 23 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 24 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 25 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 26 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 27 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 1,
+    "ID": 15, //Главное здание
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 28 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 29 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 30 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 31 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 32 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 33 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 34 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 35 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 36 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 37 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 38 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  },
+  {
+    "FolderAccount": "None / Village Slot[ 39 ]",
+    "ID_ProcessOfConstruction": 42,
+    "Village_Name": "",
+    "Level": 0,
+    "ID": 42,
+    "ProcessOfConstruction": false
+  }
+]

@@ -1,0 +1,23 @@
+RU / РУССКИЙ
+Разработчик предусмотрел 3 языка: RU, DE, EN.
+Папка, имеющая в начале имени "0_" (пример: 0_russian)
+автоматически является языком по умолчанию.
+Чтобы назначить другой язык по умолчанию,
+следует стереть приставку "0_" у существующей папки
+и добавить эти символы к другой папке с языком, например "0_english".
+=============================================================
+DE / DEUTSCH
+Der Entwickler hat 3 Sprachen zur Verfugung gestellt: RU, DE, EN.
+Ein Ordner mit dem Namen "0_" am Anfang (Beispiel: 0_russian)
+ist automatisch die Standardsprache.
+Um eine andere Standardsprache zuzuweisen,
+loschen Sie das Prafix "0_" in einem vorhandenen Ordner
+und fugen diese Zeichen einem anderen Sprachordner hinzu, z. B. "0_english".
+=============================================================
+EN / ENGLISH
+The developer has provided 3 languages: RU, DE, EN.
+The folder having "0_" at the beginning of the name (example: 0_russian)
+is automatically the default language.
+To assign a different default language,
+erase the prefix "0_" from the existing folder
+and add these characters to another folder with the language, for example "0_english".

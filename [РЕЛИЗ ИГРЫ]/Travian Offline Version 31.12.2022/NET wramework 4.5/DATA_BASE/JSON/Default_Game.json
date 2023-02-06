@@ -1,0 +1,90 @@
+{
+  //::GAME - ИГРА::
+  "PathFolderSave": "DATA_BASE/ACCOUNTS", //путь до папки в которую сохраняется вся игра относительно exe файла
+  "Name_MaxLength": 30, //макс. кол-во символов в названии деревни и аккаунта
+  "Topic_MaxLength": 50, //макс. кол-во символов в названии темы сообщения
+  "bgVillage_NumberImage": 1, //номер фоновой картинки на вкладке "Деревня"
+  "SpeedGame": 1000, //скорость игры
+
+  //::GAMEPLAY - ИГРОВОЙ ПРОЦЕСС::
+  //table: 
+  //nation     maximum number of buildings in the construction queue
+  //нация      максимальное количество построек в очереди строительства
+  "MaxCount_Building_InOfConstructionQueue": [
+    [ "Romes", "4" ],
+    [ "Germans", "3" ],
+    [ "Gallus", "2" ],
+    [ "Natures", "1" ],
+    [ "Natars", "2" ]
+  ],
+  //table: add + % to resources
+  "Bonuses_Oasis": [
+    [ "25", "50", "25", "25", "50", "25", "25", "50", "25", "25", "50" ],
+    [ "0", "0", "25", "0", "0", "25", "0", "0", "25", "0", "0" ],
+    [ "wood", "wood", "wood_crop", "clay", "clay", "clay_crop", "iron", "iron", "iron_crop", "crop", "crop" ]
+  ],
+  //базовая вместимость всех хранилищ аккаунта
+  "Capacity_Basic": {
+    "Warehouse": 800,
+    "Barn": 800,
+    "Treasury": 200,
+    "Embassy": 0,
+    "Stash": 0
+  },
+  //базовая грузоподъёмность торговцев (Рынок)
+  "BasicLoadCapacityOfMerchants_Market": {
+    "Romans": 500,
+    "Gauls": 750,
+    "Germans": 1000
+  },
+  //базовая скорость торговцев (Рынок)
+  "BasicSpeedOfMerchants_Market": {
+    "Romans": 16,
+    "Gauls": 24,
+    "Germans": 12
+  },
+  //стоимость маленького праздника (Ратуша)
+  "CostHoliday_TownHall": {
+    "wood": 6400.0,
+    "clay": 6650.0,
+    "iron": 5940.0,
+    "crop": 1340.0,
+    "gold": 0.0
+  },
+  //стоимость большого праздника/торжества (Ратуша)
+  "CostCelebrations_TownHall": {
+    "wood": 29700.0,
+    "clay": 33250.0,
+    "iron": 32000.0,
+    "crop": 6700.0,
+    "gold": 0.0
+  },
+  //стоимость праздника (Пивоварня) Германцы
+  "CostHoliday_BreweryGermans": {
+    "wood": 3870.0,
+    "clay": 1680.0,
+    "iron": 5940.0,
+    "crop": 1340.0,
+    "gold": 0.0
+  },
+  "DurationHoliday_BreweryGermans": 259200, //продолжительность праздника (Пивоварня) Германцы
+  //стоимость одного капкана (Капканщик) Галлы
+  "CostOneTrap_TrapperGauls": {
+    "wood": 35.0,
+    "clay": 30.0,
+    "iron": 10.0,
+    "crop": 20.0,
+    "gold": 0.0
+  },
+  "TimeRepairOneTrap_TrapperGauls": 60, //продолжительность ремонта одного капкана (Капканщик) Галлы
+  "BaseTimeCreatingNewTrap_TrapperGauls": 600, //базовое время создания одного капкана (Капканщик) Галлы
+  "CostInGoldForInstantCompletionOfConstruction": 5, //Стоимость в золоте за моментальное завершение строительства
+  "Radius_Neighborhood": 5, //Радиус окрестности вокруг деревни игрока (для кнопки отчёта: "окрестность". Диаметр = сумма радиусов + 1)
+
+  //::INTERFACE - ИНТЕРФЕЙС::
+  "Language": 0, //индекс папки с языком
+  "ToolTipFlag": true, //флаг всплывающих подсказок
+  "ColorArmyFlag": true, //флаг цветовой дифференциации армий по нациям
+  "MaxVillageTabelRowsVisibleProfileWindow": 12, //макс. кол-во отображаемых деревень в таблице окна профиля игрока
+  "SpeedAnimateProfileWindow": 1 //скорость амплитудной анимации в окне "профиль игрока"
+}

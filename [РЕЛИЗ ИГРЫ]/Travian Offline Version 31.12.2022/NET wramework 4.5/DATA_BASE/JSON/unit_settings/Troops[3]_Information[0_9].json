@@ -1,0 +1,135 @@
+{
+//NPC
+  "Information": [
+    {
+      "Name": "Rat / Крыса",
+      "Attack": 10,
+      "Defense_vs_Infantry": 25,
+      "Defense_vs_Cavalry": 20,
+      "Consumption": 1,
+      "Speed": 20,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 0.0, "clay": 0.0, "iron": 0.0, "crop": 0.0, "gold": 0.0 },
+      "TimeOfResearch": 0,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 300
+    },
+    {
+      "Name": "Spider / Паук",
+      "Attack": 20,
+      "Defense_vs_Infantry": 35,
+      "Defense_vs_Cavalry": 40,
+      "Consumption": 1,
+      "Speed": 20,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 700.0, "clay": 500.0, "iron": 1000.0, "crop": 760.0, "gold": 0.0 },
+      "TimeOfResearch": 2880,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 360
+    },
+    {
+      "Name": "Snake / Змея",
+      "Attack": 60,
+      "Defense_vs_Infantry": 40,
+      "Defense_vs_Cavalry": 60,
+      "Consumption": 1,
+      "Speed": 20,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 700.0, "clay": 500.0, "iron": 1000.0, "crop": 760.0, "gold": 0.0 },
+      "TimeOfResearch": 3060,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 420
+    },
+    {
+      "Name": "Bat / Летучая мышь",
+      "Attack": 80,
+      "Defense_vs_Infantry": 66,
+      "Defense_vs_Cavalry": 50,
+      "Consumption": 1,
+      "Speed": 20,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 700.0, "clay": 500.0, "iron": 1000.0, "crop": 760.0, "gold": 0.0 },
+      "TimeOfResearch": 3240,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 480
+    },
+    {
+      "Name": "Wild boar / Кабан",
+      "Attack": 50,
+      "Defense_vs_Infantry": 70,
+      "Defense_vs_Cavalry": 33,
+      "Consumption": 2,
+      "Speed": 20,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 700.0, "clay": 500.0, "iron": 1000.0, "crop": 760.0, "gold": 0.0 },
+      "TimeOfResearch": 3420,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 540
+    },
+    {
+      "Name": "Wolf / Волк",
+      "Attack": 100,
+      "Defense_vs_Infantry": 80,
+      "Defense_vs_Cavalry": 70,
+      "Consumption": 2,
+      "Speed": 20,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 700.0, "clay": 500.0, "iron": 1000.0, "crop": 760.0, "gold": 0.0 },
+      "TimeOfResearch": 3600,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 600
+    },
+    {
+      "Name": "Bear / Медведь",
+      "Attack": 250,
+      "Defense_vs_Infantry": 140,
+      "Defense_vs_Cavalry": 200,
+      "Consumption": 3,
+      "Speed": 20,
+      "LoadCapacity": 1000,
+      "CostOfResearch": { "wood": 700.0, "clay": 500.0, "iron": 1000.0, "crop": 760.0, "gold": 0.0 },
+      "TimeOfResearch": 3780,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 660
+    },
+    {
+      "Name": "Crocodile / Крокодил",
+      "Attack": 450,
+      "Defense_vs_Infantry": 380,
+      "Defense_vs_Cavalry": 240,
+      "Consumption": 3,
+      "Speed": 20,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 700.0, "clay": 500.0, "iron": 1000.0, "crop": 760.0, "gold": 0.0 },
+      "TimeOfResearch": 3960,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 720
+    },
+    {
+      "Name": "Tiger / Тигр",
+      "Attack": 200,
+      "Defense_vs_Infantry": 170,
+      "Defense_vs_Cavalry": 250,
+      "Consumption": 3,
+      "Speed": 20,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 550.0, "clay": 250.0, "iron": 480.0, "crop": 220.0, "gold": 0.0 },
+      "TimeOfResearch": 1995,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 780
+    },
+    {
+      "Name": "Elephant / Слон",
+      "Attack": 600,
+      "Defense_vs_Infantry": 440,
+      "Defense_vs_Cavalry": 520,
+      "Consumption": 5,
+      "Speed": 20,
+      "LoadCapacity": 10,
+      "CostOfResearch": { "wood": 0.0, "clay": 0.0, "iron": 0.0, "crop": 0.0, "gold": 0.0 },
+      "TimeOfResearch": 0,
+      "CostOfTraining": { "wood": 100.0, "clay": 100.0, "iron": 100.0, "crop": 100.0, "gold": 0.0 },
+      "TimeOfTraining": 840
+    }
+  ]
+}
